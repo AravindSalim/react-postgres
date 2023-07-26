@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .App-logo {
@@ -14,18 +15,32 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(164,164,242,1) 74%, rgba(0,212,255,1) 100%);
   min-height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(5, 5, 5);
+  font-weight: bold;
+}
+
+.termsHeader{
+  text-align: center;
+  font-weight: bold;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.Terms {
+  color: black;
+  font-size: 17px;
+  text-align: left;
 }
 
 @keyframes App-logo-spin {
